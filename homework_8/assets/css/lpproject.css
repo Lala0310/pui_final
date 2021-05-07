@@ -1,0 +1,1398 @@
+
+html, body {
+ 	background: #242627;
+  	margin: auto;
+  	scroll-behavior: smooth;
+  	font-family: 'Raleway', sans-serif;
+  	letter-spacing: 0.04em;
+}
+
+/*responsive navigation bar visible*/
+
+@media screen and (max-width: 820px) {
+	.navbar {
+		visibility: hidden;
+	}
+
+	.explore {
+		visibility: hidden;
+	}
+
+	.toggle {
+		visibility: visible;
+        opacity: 1.5;
+        margin-top: 10px;
+        margin-right: 8px;
+	}
+
+	.sidemenu {
+		width: 110%;
+	}
+}
+
+/*navigation bar visible*/
+
+@media screen and (min-width: 800px) {
+	.toggle {
+		visibility: hidden;
+        opacity: 1.5;
+        margin-top: 10px;
+        margin-right: 8px;
+	}
+
+	.menu {
+		visibility: hidden;
+	}
+
+	.navbar {
+		visibility: visible;
+	}
+}
+
+/*project content size adjustment*/
+
+@media screen and (max-width: 1400px) {
+	.public-timeline {
+		padding-top: 30px;
+		font-size: 10px;
+		width: 1000px;
+	}
+
+	.p4 {
+		position: relative;right: 70px;
+	}
+
+	.public-descrip {
+		padding-bottom: 30px;
+	}
+
+	.public-project {
+		width: 100%;
+	}
+
+	.mobile1 {
+		padding-right: 80px;
+		width: 160%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.project-img1 {
+		width: 77%;
+	}
+
+	.public-timeline {
+		padding-top: 30px;
+		font-size: 10px;
+		width: 1000px;
+	}
+
+	.mun-timeline {
+		width: 1000px;
+	}
+
+	.p2 {
+		position: relative; right: 70px;
+	}
+
+	.p3 {
+		position: relative; right: 120px;
+	}
+
+	.p4 {
+		position: relative;right: 190px;
+	}
+
+	.p6 {
+		position: relative; right: 90px;
+	}
+
+	.p7 {
+		position: relative; right: 180px;
+	}
+
+	.public-descrip {
+		padding-bottom: 30px;
+		width: 800px;
+	}
+
+	.public-project {
+		width: 130%;
+	}
+
+	.mobile2 {
+		position: relative;
+		width: 108%;
+		height: 100%;
+	}
+
+	.problem {
+		width: 65%;
+	}
+
+	.mobile1 {
+		padding-right: 80px;
+		width: 120%;
+	}
+
+	.solution-text {
+		position:relative; top: 50px;
+	}
+
+	.process-text {
+	position: relative; left: 270px;
+	}
+
+	.process-img {
+		width: 90px;
+		height: 90px;
+		position: relative; right: 90px;
+	}
+
+	.interview-img1 {
+		position: relative; top: -300px;
+		padding-top: 10px;
+		width: 100%;
+	}
+
+	.affinity-img1 {
+		width: 80%;
+	}
+
+	.interview-img2 {
+	display: none;
+	visibility: hidden;
+	}
+
+	.takeaway2 {
+		width: 50%;
+	}
+
+	.whyimg-text {
+	width: 100%;
+	padding-top: 50px;
+	}
+
+	.thinkaloud-text {
+		width: 50%;
+	}
+
+	.insightsname {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.public-timeline {
+		padding-top: 30px;
+		font-size: 10px;
+		width: 800px;
+	}
+
+	.mun-timeline {
+		width: 1000px;
+	}
+
+	.p2 {
+		position: relative; right: 0px;
+	}
+
+	.p3 {
+		position: relative; right: 0px;
+	}
+
+	.p4 {
+		position: relative;right: 70px;
+	}
+
+	.p6 {
+		position: relative; right: 140px;
+	}
+
+	.p7 {
+		position: relative; right: 250px;
+	}
+
+	.public-descrip {
+		padding-bottom: 30px;
+		width: 700px;
+	}
+
+	.public-project {
+		width: 130%;
+	}
+
+	.project-intro {
+		position: relative; right: 50px;
+	}
+
+	.project-intro2 {
+		position: relative; right: 50px;
+	}
+
+	.mobile2 {
+		position: relative; right: -100px;
+		width: 115%;
+		height: 100%;
+	}
+
+	.mobile1 {
+		padding-right: 80px;
+		width: 120%;
+	}
+
+	.solution-text {
+		visibility: hidden;
+	}
+
+	.solution-img {
+		width:170px;
+		position:relative;top: 50px; right: 370px;
+	}
+
+	.solution-button {
+		display: none;
+	}
+
+	.process {
+		visibility: hidden;
+	}
+
+	.challenge {
+		position: relative; right: 100px;
+	}
+
+	.a-s-walk {
+		position: relative; right: 100px;
+	}
+
+	.walkwall-content {
+		position: relative;right: 200px;
+		width: 30%;
+	}
+
+	.interview {
+		position: relative; right: 100px;
+	}
+
+	.interview-img1 {
+		position: relative; top: -300px;
+		padding-top: 100px;
+		width: 120%;
+	}
+
+	.affinity-img1 {
+		width: 80%;
+	}
+
+	.takeaway2 {
+		width: 80%;
+	}
+
+	.why {
+		position: relative; right: 100px;
+	}
+
+	.whyimg-text {
+		width: 80%;
+		padding-top: 50px;
+	}
+
+	.think-aloud {
+		position: relative; right: 100px;
+	}
+
+	.insights {
+		position: relative; right: 100px;
+	}
+
+	.insightsname {
+		width: 80%;
+		padding-right: 30px;
+	}
+
+	.ideation {
+		position: relative; right: 100px;
+	}
+
+	.design {
+		position: relative; right: 100px;
+	}
+
+	.finalsolution {
+		position: relative; right: 250px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.interview-img1 {
+		position: relative; top: -300px;
+		padding-top: 250px;
+		width: 120%;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.public-timeline {
+		width: 400px;
+		height: 310px;
+	}
+
+	.mun-timeline {
+		width: 500px;
+		height: 310px;
+	}
+
+	.p2 {
+		position: relative; right: 0px; top: -300px;
+		padding-top: 100px;
+	}
+
+	.p3 {
+		visibility: hidden;
+	}
+
+	.p4 {
+		visibility: hidden;
+	}
+
+	.p6 {
+		position: relative; right: 0px;
+	}
+
+	.p7 {
+		position: relative; right: 0px;
+		padding-top: 50px;
+	}
+
+	.public-descrip {
+		padding-bottom: 30px;
+		width: 500px;
+	}
+
+	.public-project {
+		width: 130%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 100px;
+		height: 800px;
+	}
+
+	.project-intro2 {
+		position: relative; right: 100px;
+		height: 800px;
+	}
+
+	.mobile2 {
+		position: relative; right: -10px;
+		width: 70%;
+		height: 100%;
+	}
+
+	.problem {
+		width: 50%;
+	}
+
+	.mobile1 {
+		padding-right: 80px;
+		width: 110%;
+	}
+
+	.solution-button {
+		display: none;
+	}
+
+	.process {
+		visibility: hidden;
+	}
+
+	.challenge {
+		position: relative; right: 100px;
+	}
+
+	.a-s-walk {
+		position: relative; right: 100px;
+	}
+
+	.walkwall-content {
+		position: relative;right: 200px;
+		width: 100%;
+	}
+
+	.interview {
+		position: relative; right: 100px;
+	}
+
+	.interview-img1 {
+		position: relative; top: -300px;
+		padding-top: 280px;
+		width: 120%;
+	}
+
+	.affinity-img1 {
+		width: 70%;
+		position: relative; top: -00px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.why {
+		position: relative; right: 100px;
+	}
+
+	.think-aloud {
+		position: relative; right: 100px;
+	}
+
+	.thinkaloud-img {
+		position: relative; left: 200px;
+		padding-right: 130px;
+	}
+
+	.insights {
+		position: relative; right: 100px;
+	}
+
+	.ideation {
+		position: relative; right: 100px;
+	}
+
+	.story-img {
+		width: 80%;
+		height: 100%;
+		position: relative; left: 100px;
+		padding-top: 100px;
+	}
+
+	.design {
+		position: relative; right: 100px;
+	}
+
+	.finalsolution {
+		position: relative; right: 100px;
+	}
+
+	.flow-img {
+		width: 100%;
+		position: relative;right: 300px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.public-timeline {
+		width: 400px;
+		height: 310px;
+	}
+
+	.p2 {
+		position: relative; right: 0px; top: -300px;
+		padding-top: 100px;
+	}
+
+	.p3 {
+		visibility: hidden;
+	}
+
+	.p4 {
+		visibility: hidden;
+	}
+
+	.public-descrip {
+		padding-bottom: 30px;
+		width: 300px;
+	}
+
+	.public-project {
+		width: 130%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 100px;
+		height: 1000px;
+	}
+
+	.project-intro2 {
+		position: relative; right: 100px;
+		height: 1000px;
+	}
+
+	.mobile2 {
+		position: relative; 
+		width: 70%;
+		height: 70%;
+	}
+
+	.problem {
+		width: 45%;
+		right: 20px;
+	}
+
+	.solution-img {
+		width:130px;
+		position:relative;top: -750px; right: 430px;
+	}
+
+	.interview-img1 {
+		position: relative; top: -300px;
+		padding-top: 330px;
+		width: 130%;
+	}
+
+	.affinity-img1 {
+		width: 70%;
+		position: relative; top: -00px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.takeaway2 {
+		width: 50%;
+		position: relative;right: 30px;
+	}
+
+	.s1 {
+		visibility: hidden;
+	}
+
+	.s2 {
+		visibility: hidden;
+	}
+
+	.story-img {
+		width: 80%;
+		height: 100%;
+		position: relative; left: 50px;
+		padding-top: 200px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.public-project {
+		width: 140%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 100px;
+		height: 900px;
+	}
+
+	.project-intro2 {
+		position: relative; right: 100px;
+		height: 900px;
+	}
+
+	.problem {
+		width: 30%;
+	}
+
+	.story-img {
+		width: 80%;
+		height: 100%;
+		position: relative; left: 50px;
+		padding-top: 250px;
+	}
+}
+
+@media screen and (max-width: 526px) {
+	.public-project {
+		width: 140%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 100px;
+		height: 1100px;
+	}
+
+	.problem {
+		width: 15%;
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.public-project {
+		width: 140%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 100px;
+		height: 1200px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.public-project {
+		width: 170%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 130px;
+		height: 1100px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.public-project {
+		width: 175%;
+		font-size: 10px;
+	}
+
+	.project-intro {
+		position: relative; right: 150px;
+		height: 1200px;
+	}
+}
+
+/*name logo content*/
+
+.heading {
+	background-color: #242627;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 7;
+}
+
+.header-content {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300; 
+	letter-spacing: 0.05em;
+	width: 1200px;
+	margin: 0 auto;
+	z-index: 7;
+	position: fixed;
+	color: white;
+	padding-bottom: 90px;
+	padding-top: 0px;
+	padding-right: 245px;
+}
+
+.homebutton {
+	outline: none;
+	background: none;
+	border: none;
+	margin-top: 28px;
+	position: fixed;
+	left: 20px;
+	background-color: #242627;
+}
+
+.name {
+	font-weight: 500; 
+	display: inline-block;
+	letter-spacing: 0.05em;
+	font-size: 23px;	
+	position: fixed;
+	top: 45px;
+	left: 100px;
+	align-items: left;
+	padding-bottom: 0px;
+	background-color: #242627;
+	z-index: 7;
+
+}
+
+.name a {
+	text-decoration: none;
+	color: white;
+}
+
+/*navigation bar content*/
+
+.navbar {
+	display: inline-block;
+	align-items: right;
+	margin: auto;
+	padding-bottom: 0px;
+	top: 40px;
+	width: 230px;
+	font-weight: 500;
+	background-color: #242627;
+	z-index: 7;
+}
+
+.explore {
+	position: fixed;
+	float: left;
+	right: 70px;
+	background-color: #242627;
+	background-size: cover;
+}
+
+.explore li {
+	 padding-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 60px;
+    position: relative;
+    transition: all 0.4s ease-out;
+}
+
+.explore li a {
+	color: white;
+	text-decoration: none;
+}
+
+.work {
+	display: inline-block;
+	font-size: 15px;
+}
+
+.work a {
+	color: white;
+	text-decoration: none;
+	position: relative; right: 20px;
+}
+
+.art {
+	display: inline-block;
+	font-size: 15px;
+	position: relative; right: -20px;
+}
+
+.about {
+	display: inline-block;
+	font-size: 15px;
+	position: relative; right: -60px;
+}
+
+.about a {
+	color: white;
+	text-decoration: none;
+}
+
+/*responsive navigation bar content*/
+
+.toggle {
+	position: fixed;
+	background: #242627 url("../images/tmenu.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	background-size: 25px;
+	top: 22px;
+	right: 30px;
+	width: 50px;
+	height: 50px;
+	z-index: 8;
+}
+
+.toggle.active {
+	background: #242627 url("../images/close.png");
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sidemenu {
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+	background: #242627;
+	justify-content: center;
+	align-items: center;
+	right: -100px;
+	top:100px;
+	padding: 100px;
+	z-index: 1;
+	width: 100%
+	height: 100%;
+	visibility: hidden;
+	opacity: 20%;
+}
+
+.sidemenu .menu li {
+	background: #242627;
+	display: block;
+    text-align: center;
+    padding: 20px 0;
+    right: -100px;
+    font-size: 30px;
+    min-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease-out; *
+}
+
+.sidemenu .menu li a {
+    color: #B3B8BB;
+}
+
+.sidemenu .menu li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.sidemenu.active {
+    visibility: visible;
+    opacity: 1.5;
+}
+
+.close {
+	position: absolute;
+    right: 45px;
+    font-size: 20px;
+    font-weight: 100;
+    z-index: 1;
+    cursor: pointer;
+    top: -3px;
+    line-height: 90px;
+}
+
+.navbar .explore li a:hover {
+	font-weight: 600;
+}
+
+/*project info contents*/
+
+.project-img1 {
+	position: relative; top: 100px;
+}
+
+.public-title {
+	padding-bottom: 20px;
+}
+
+.project-intro {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	position: relative; top: 100px;
+	padding-top: 80px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 120px;
+	letter-spacing: 0.05em;
+}
+
+.project-intro2 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	position: relative; top: 100px;
+	padding-top: 80px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 120px;
+	letter-spacing: 0.05em;
+}
+
+.public-timeline {
+	display: inline-block;
+	font-size: 15px;
+	padding-top: 50px;
+}
+
+.mun-timeline {
+	display: inline-block;
+	font-size: 15px;
+	padding-top: 180px;
+}
+
+.p1 {
+	display: inline-block;
+	padding-right: 118px;
+	position: relative; top: -80px;
+	font-weight: 400;
+}
+
+.p2 {
+	display: inline-block;
+	padding-right: 118px;
+	position: relative; top: -150px;
+}
+
+.p3 {
+	display: inline-block;
+	padding-right: 118px;
+	position: relative; top: -20px;
+}
+
+.p4 {
+	display: inline-block;
+	position: relative; top: -150px;
+}
+
+.p5 {
+	display: inline-block;
+	padding-right: 300px;
+	position: relative; top: -150px;
+}
+.p6 {
+	display: inline-block;
+	padding-right: 300px;
+	position: relative; top: -120px;
+}
+
+.p7 {
+	display: inline-block;
+	position: relative; top: -150px;
+}
+
+.designprocess {
+	position: relative; left: -100px;
+	display: inline-block;
+	width: 100%;
+}
+
+.problem {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	position: relative; left: 260px;
+	padding-top: 150px;
+	padding-bottom: 260px;
+}
+
+.mobile2 {
+	position: relative;
+	width: 100%;
+}
+
+.mobile1 {
+	font-family: 'Raleway', sans-serif;
+	background-color: #FCFCFC;
+	position: relative; right: -100px;
+	display: inline-block;
+	padding-bottom: 200px;
+}
+
+.mobile1 p {
+	padding-top: 80px;
+	padding-right: 100px;
+	padding-left: 200px;
+	letter-spacing: 0.05em;
+	display: inline-block;
+	position: relative;top: -50px;
+}
+
+.solution-text {
+	display: inline-block;
+	width: 50%;
+	line-height: 30px;
+}
+
+.solution-img {
+	display: inline-block;
+}
+
+.solution-button {
+	background-color: #242627;
+	width: 8.5%;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.solution-button a {
+	color: white;
+	text-decoration: none;
+	position: relative; right: -5px;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+
+.process {
+	position: relative;
+	right: -400px;	
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+
+.process-text {
+	color: white;
+	position: relative;
+	right: -370px;
+	font-weight: 500;
+	padding-bottom: 20px;
+	font-size: 18px;
+	width: 40%;
+}
+
+.maincontent {
+	background-color: #FCFCFC;
+}
+
+.challenge {
+	background-color: #FCFCFC;
+	padding-top: 90px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 60px;
+}
+
+.challenge-title {
+	padding-bottom: 3px;
+}
+
+.challenge-title2 {
+	padding-bottom: 3px;
+}
+
+.research-data {
+	padding-top: 20px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 70px;
+}
+
+.research-title {
+	padding-bottom: 20px;
+}
+
+.analyzing {
+	padding-bottom: 3px;
+}
+
+.journeymap-title {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.journeymap-img1 {
+	position: relative;
+	right: -110px;
+}
+
+.journeymap-img2 {
+	position: relative;
+	right: -110px;
+}
+
+.analyzing3 {
+	padding-bottom: 70px;
+}
+
+.walkwall-img1 {
+	position: relative;
+	right: -200px;
+	top: -10px;
+}
+
+.walkwall2 {
+	position: relative;
+	right: -200px;
+	top: -20px;
+}
+
+.walkwall3 {
+	position: relative;
+	right: -330px;
+	top: -20px;
+	padding-bottom: 150px;
+	width: 47%
+}
+
+.interview {
+	position: relative;
+	top: -50px;
+}
+
+.interview-title {
+	padding-bottom: 10px;
+}
+
+.interview-img1 {
+	position: relative;
+	top: -500px;
+	display: inline-block;
+}
+
+.interview-img2 {
+	position: relative; 
+	right: -300px;
+	top: 150px;
+	display: inline-block;
+}
+
+.affinity-group {
+	position: relative;
+	top: -50px;
+}
+
+.affinity {
+	position: relative;
+	top: -300px;
+}
+
+.affinity-img1 {
+	position: relative;
+	top: -60px;
+	right: -20px;
+}
+
+.takeaway {
+	padding-bottom: 18px;
+	position: relative;
+	top: -400px;
+}
+
+.takeaway2 {
+	position: relative; right: -120px;
+	top: -410px;
+	line-height: 30px;
+}
+
+.why {
+	display: inline-block;
+	position: relative;
+	top: -340px;
+}
+
+.why-title {
+	padding-bottom: 13px;
+}
+
+.why-img {
+	display: inline-block;
+	width: 100%;
+}
+
+.why-img1 {
+	display: inline-block;
+	position: relative;
+	left: -30px;
+	padding-top: 20px;
+}
+
+.whyimg-text {
+	display: inline-block;
+	line-height: 30px;
+	width: 40%;
+	position: relative;
+	top: -40px;
+}
+
+.think-aloud {
+	position: relative;
+	top: -200px;
+}
+
+.thinkaloud-title {
+	padding-bottom: 10px;
+}
+
+.thinkaloud-img {
+	position: relative;
+	right: -200px;
+}
+
+.insights {
+	padding-top: 0px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 70px;
+	position: relative;
+	top: -350px;
+}
+
+.insights-title {
+	padding-bottom: 50px;
+}
+
+.insightsname {
+	display: inline-block;
+	padding-right: 120px;
+}
+
+.proximity-title {
+	background-color: #37AAB1;
+	width: 150px;
+	border-radius: 30px;
+	padding: 0.2px;
+}
+
+.proximity-title p {
+	color: white;
+	padding-left: 15px;
+}
+
+.proximity-text {
+	padding-bottom: 10px;
+}
+
+.prior-title {
+	background-color: #2FD2AB;
+	width: 220px;
+	border-radius: 30px;
+	padding: 0.2px;
+}
+
+.prior-title p {
+	color: white;
+	padding-left: 15px;
+}
+
+.prior-text {
+	padding-bottom: 10px;
+}
+
+.privacy-title {
+	background-color: #266BF0;
+	width: 130px;
+	border-radius: 30px;
+	padding: 0.2px;
+}
+
+.privacy-title p {
+	color: white;
+	padding-left: 15px;
+	font-weight: 600;
+	padding-left: 15px;
+}
+
+.privacy-text {
+	padding-bottom: 10px;
+}
+
+.evidence {
+	display: inline-block;
+	width: 40%;
+	position: relative;
+	top: -0px;
+}
+
+.e2 {
+	position: relative;
+	top: 30px;
+}
+
+.e3 {
+	position: relative;
+	top: 50px;
+}
+
+.e-title {
+	background-color: #A4ACBB;
+	width: 130px;
+	border-radius: 3px;
+}
+
+.e-title p {
+	color: white;
+	padding-left: 15px;
+	font-weight: 600;
+}
+
+.q1 {
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+.q2 {
+	padding-bottom: 15px;
+	font-style: italic;
+}
+
+.q3 {
+	padding-bottom: 15px;
+	font-style: italic;
+}
+
+.ideation {
+	padding-top: 20px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 70px;
+	position: relative;
+	top: -370px;
+}
+
+.idea-title {
+	padding-bottom: 20px;
+}
+
+.story-title {
+	padding-bottom: 2px;
+}
+
+.story-img {
+	position: relative;
+	right: -100px;
+	top: -100px;
+}
+
+.design {
+	padding-top: 20px;
+	padding-right: 220px;
+	padding-left: 220px;
+	padding-bottom: 70px;
+	position: relative;
+	top: -1120px;
+}
+
+.design-title {
+	padding-bottom: 40px;
+}
+
+.midfi-img {
+	position: relative;
+	top: 40px;
+	right: -150px;
+}
+
+.expro {
+	position: relative;
+	top: 150px;
+}
+
+.expro-title {
+	padding-bottom: 3px;
+}
+
+.expro-img {
+	display: inline-block;
+	position: relative;
+	top: 350px;
+	right: -115px;
+}
+
+.exp-img1 {
+	display: inline-block;
+}
+
+.exp-img2 {
+	display: inline-block;
+}
+
+.exp-img3 {
+	display: inline-block;
+}
+
+#finalsolution {
+	padding-top: 20px;
+	padding-right: 220px;
+	padding-left: 220px;
+	position: relative;
+	top: -770px;
+}
+
+.final-demo {
+	padding-top: 80px;
+	position: relative;
+	right: 160px;
+}
+
+.flow-title {
+	padding-top: 120px;
+}
+
+.flow-img {
+	position: relative;
+	top: 350px;
+	right: -100px;
+}
+
+/*project content animation duration*/
+
+.animate__animated.animate__fadeInLeft {
+	--animate-duration: 2s;
+	--animate-delay: 0.5s;
+}
+
+
